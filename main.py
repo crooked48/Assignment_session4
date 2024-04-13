@@ -32,7 +32,8 @@ class TaskManager:
         This method writes the list of tasks to a file
         """
         pass
-
+    def dumptask(self):
+        print("Task Dumped")
 def main():
     task_manager = TaskManager()
 
